@@ -8,7 +8,6 @@ permissions:
   pages: write
   id-token: write
 
-# Must match the main and crowding workflows.
 concurrency:
   group: macroscope-main-writer
   cancel-in-progress: false
@@ -49,44 +48,46 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/global_macro.csv data/status.json public
+          SNAPSHOT="/tmp/macroscope-treasury-generated.tar"
+          tar -cf "$SNAPSHOT" data/global_macro.csv data/status.json public
 
-          if git diff --cached --quiet; then
-            echo "No Treasury history changes."
-            exit 0
-          fi
+          echo "Treasury snapshot saved."
+          echo "Uncommitted files before synchronization:"
+          git status --short || true
 
-          git commit -m "data: update U.S. Treasury yield history [skip ci]"
+          for attempt in 1 2 3; do
+            echo "Synchronize and push attempt ${attempt}/3"
 
-          push_with_rebase() {
-            for attempt in 1 2 3; do
-              echo "Sync and push attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd
 
-              git fetch origin main
+            tar -xf "$SNAPSHOT"
 
-              if ! git rebase origin/main; then
-                echo "::error::Automatic rebase failed because the remote changes conflict with generated files."
-                git rebase --abort || true
-                return 1
-              fi
+            git add data/global_macro.csv data/status.json public
 
-              if git push origin HEAD:main; then
-                echo "Push succeeded."
-                return 0
-              fi
+            if git diff --cached --quiet; then
+              echo "Remote main already contains the Treasury result."
+              exit 0
+            fi
 
-              echo "Remote changed again before push; retrying..."
-              sleep $((attempt * 10))
-            done
+            git commit -m "data: update U.S. Treasury yield history [skip ci]"
 
-            echo "::error::Push failed after 3 attempts."
-            return 1
-          }
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
 
-          push_with_rebase
+            echo "Remote main changed before push; rebuilding the commit on the latest main."
+            sleep $((attempt * 10))
+          done
+
+          echo "::error::Push failed after 3 attempts."
+          exit 1
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
