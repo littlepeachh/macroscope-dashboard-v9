@@ -31,7 +31,7 @@
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 4981,
+      "rows": 4982,
       "columns": [
         "trade_date",
         "dr001_pct",
@@ -42,7 +42,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 32536,
+      "rows": 32551,
       "columns": [
         "trade_date",
         "symbol",
@@ -71,7 +71,7 @@
       "status": "ok"
     },
     "valuation.csv": {
-      "rows": 23268,
+      "rows": 23273,
       "columns": [
         "trade_date",
         "index_code",
@@ -177,7 +177,7 @@
       "status": "ok"
     },
     "a_share_universe.csv": {
-      "rows": 5288,
+      "rows": 5065,
       "columns": [
         "code",
         "exchange",
