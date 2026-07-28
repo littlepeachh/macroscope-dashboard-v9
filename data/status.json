@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 168,
-      "started_at": "2026-07-28T13:55:59+08:00",
-      "finished_at": "2026-07-28T13:56:25+08:00",
+      "started_at": "2026-07-29T00:26:40+08:00",
+      "finished_at": "2026-07-29T00:27:10+08:00",
       "latest_date": "202606",
       "total_cached_rows": 168,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4946,
-      "started_at": "2026-07-28T13:56:25+08:00",
-      "finished_at": "2026-07-28T13:56:45+08:00",
+      "started_at": "2026-07-29T00:27:10+08:00",
+      "finished_at": "2026-07-29T00:27:28+08:00",
       "latest_date": "20260728",
       "total_cached_rows": 4982,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-07-28T14:11:08+08:00",
-      "finished_at": "2026-07-28T14:11:14+08:00",
+      "started_at": "2026-07-29T00:27:28+08:00",
+      "finished_at": "2026-07-29T00:27:34+08:00",
       "latest_date": "20260721",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -388,7 +388,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-07-29T00:16:06+08:00",
+  "updated_at": "2026-07-29T00:26:40+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
