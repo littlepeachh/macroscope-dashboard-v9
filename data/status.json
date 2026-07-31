@@ -3,11 +3,11 @@
   "datasets": {
     "macro": {
       "status": "success",
-      "rows": 168,
-      "started_at": "2026-07-31T00:16:41+08:00",
-      "finished_at": "2026-07-31T00:17:17+08:00",
-      "latest_date": "202606",
-      "total_cached_rows": 168,
+      "rows": 169,
+      "started_at": "2026-07-31T19:13:24+08:00",
+      "finished_at": "2026-07-31T19:13:43+08:00",
+      "latest_date": "202607",
+      "total_cached_rows": 169,
       "source_details": {
         "components": {
           "money_supply": {
@@ -27,7 +27,7 @@
           },
           "pmi": {
             "status": "success",
-            "rows": 168,
+            "rows": 169,
             "source": "东方财富 / AKShare"
           },
           "cpi": {
@@ -40,29 +40,29 @@
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
-      "cached_rows": 168
+      "cached_rows": 169
     },
     "liquidity": {
       "status": "success",
-      "rows": 4948,
-      "started_at": "2026-07-31T00:17:17+08:00",
-      "finished_at": "2026-07-31T00:17:52+08:00",
-      "latest_date": "20260730",
-      "total_cached_rows": 4984,
+      "rows": 4949,
+      "started_at": "2026-07-31T19:13:43+08:00",
+      "finished_at": "2026-07-31T19:14:25+08:00",
+      "latest_date": "20260731",
+      "total_cached_rows": 4985,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4948,
+          "rows": 4949,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
           "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
+          "error": "DataFetchError(\"中国货币网未解析到DR001/DR007；严格不以FDR替代。https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2') | https://www.chinamoney.com.cn/english/mdtqapprp/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/english/mdtqapprp/') | https://www.chinamoney.com.cn/chinese/mkdatapm/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/')\")",
           "note": "严格不使用FDR替代DR"
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4984
+      "cached_rows": 4985
     },
     "market": {
       "status": "success",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-07-31T16:21:23+08:00",
+  "updated_at": "2026-07-31T19:13:24+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
