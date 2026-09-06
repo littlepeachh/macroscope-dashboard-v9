@@ -66,127 +66,127 @@
     },
     "market": {
       "status": "success",
-      "rows": 32690,
-      "started_at": "2026-08-06T16:00:57+08:00",
-      "finished_at": "2026-08-06T16:01:07+08:00",
-      "latest_date": "20260806",
-      "total_cached_rows": 32691,
+      "rows": 33125,
+      "started_at": "2026-09-06T07:54:43+08:00",
+      "finished_at": "2026-09-06T07:54:53+08:00",
+      "latest_date": "20260904",
+      "total_cached_rows": 33126,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1597,
+          "rows": 1619,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 1597,
+          "rows": 1619,
           "source": "新浪财经 / AKShare"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 1597,
+          "rows": 1619,
           "source": "新浪财经 / AKShare"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1597,
+          "rows": 1619,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1597,
+          "rows": 1619,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
           "status": "success",
-          "rows": 1598,
+          "rows": 1620,
           "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1659,
+          "rows": 1680,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1656,
+          "rows": 1678,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1616,
+          "rows": 1636,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1616,
+          "rows": 1636,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32691
+      "cached_rows": 33126
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-06T16:01:07+08:00",
-      "finished_at": "2026-08-06T16:12:39+08:00",
-      "latest_date": "20260804",
-      "total_cached_rows": 29986,
+      "started_at": "2026-09-06T07:54:53+08:00",
+      "finished_at": "2026-09-06T08:06:24+08:00",
+      "latest_date": "20260903",
+      "total_cached_rows": 29988,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260804",
+          "latest_date": "20260903",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260804",
+          "latest_date": "20260903",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260804",
-        "DGS10": "20260804",
+        "DGS2": "20260903",
+        "DGS10": "20260903",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 29986
+      "cached_rows": 29988
     },
     "valuation": {
       "status": "success",
@@ -320,45 +320,45 @@
     },
     "deviation": {
       "status": "success",
-      "rows": 2090,
-      "started_at": "2026-08-06T16:12:39+08:00",
-      "finished_at": "2026-08-06T16:12:39+08:00",
-      "latest_date": "20260805",
-      "total_cached_rows": 2090,
+      "rows": 2115,
+      "started_at": "2026-09-06T08:06:24+08:00",
+      "finished_at": "2026-09-06T08:06:24+08:00",
+      "latest_date": "20260904",
+      "total_cached_rows": 2115,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
-          "rows": 418,
-          "latest_week_date": "20260805",
-          "latest_month_date": "20260805"
+          "rows": 423,
+          "latest_week_date": "20260904",
+          "latest_month_date": "20260904"
         },
         "399001.SZ": {
           "status": "success",
-          "rows": 418,
-          "latest_week_date": "20260805",
-          "latest_month_date": "20260805"
+          "rows": 423,
+          "latest_week_date": "20260904",
+          "latest_month_date": "20260904"
         },
         "399006.SZ": {
           "status": "success",
-          "rows": 418,
-          "latest_week_date": "20260805",
-          "latest_month_date": "20260805"
+          "rows": 423,
+          "latest_week_date": "20260904",
+          "latest_month_date": "20260904"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 418,
-          "latest_week_date": "20260805",
-          "latest_month_date": "20260805"
+          "rows": 423,
+          "latest_week_date": "20260904",
+          "latest_month_date": "20260904"
         },
         "000300.SH": {
           "status": "success",
-          "rows": 418,
-          "latest_week_date": "20260805",
-          "latest_month_date": "20260805"
+          "rows": 423,
+          "latest_week_date": "20260904",
+          "latest_month_date": "20260904"
         }
       },
-      "cached_rows": 2090
+      "cached_rows": 2115
     },
     "fund_subscription": {
       "status": "success",
@@ -388,7 +388,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-09-06T01:03:53+08:00",
+  "updated_at": "2026-09-06T07:54:43+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
