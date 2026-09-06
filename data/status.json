@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-06T01:03:53+08:00",
-      "finished_at": "2026-09-06T01:04:14+08:00",
+      "started_at": "2026-09-06T15:06:37+08:00",
+      "finished_at": "2026-09-06T15:06:55+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4974,
-      "started_at": "2026-09-06T01:04:14+08:00",
-      "finished_at": "2026-09-06T01:04:32+08:00",
+      "started_at": "2026-09-06T15:06:55+08:00",
+      "finished_at": "2026-09-06T15:07:12+08:00",
       "latest_date": "20260904",
       "total_cached_rows": 5010,
       "source_details": {
@@ -388,7 +388,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-09-06T07:54:43+08:00",
+  "updated_at": "2026-09-06T15:06:37+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
