@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-08T00:02:25+08:00",
-      "finished_at": "2026-09-08T00:02:43+08:00",
+      "started_at": "2026-09-08T15:13:33+08:00",
+      "finished_at": "2026-09-08T15:13:51+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4975,
-      "started_at": "2026-09-08T00:02:43+08:00",
-      "finished_at": "2026-09-08T00:02:59+08:00",
-      "latest_date": "20260907",
-      "total_cached_rows": 5011,
+      "rows": 4976,
+      "started_at": "2026-09-08T15:13:51+08:00",
+      "finished_at": "2026-09-08T15:14:08+08:00",
+      "latest_date": "20260908",
+      "total_cached_rows": 5012,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4975,
+          "rows": 4976,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5011
+      "cached_rows": 5012
     },
     "market": {
       "status": "success",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-09-08T08:25:54+08:00",
+  "updated_at": "2026-09-08T15:13:33+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
