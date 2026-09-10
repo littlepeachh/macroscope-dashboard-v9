@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33162,
-      "started_at": "2026-09-09T21:07:42+08:00",
-      "finished_at": "2026-09-09T21:07:52+08:00",
+      "rows": 33165,
+      "started_at": "2026-09-10T08:16:02+08:00",
+      "finished_at": "2026-09-10T08:16:14+08:00",
       "latest_date": "20260909",
-      "total_cached_rows": 33165,
+      "total_cached_rows": 33168,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -104,17 +104,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1679,
+          "rows": 1680,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1679,
+          "rows": 1680,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1679,
+          "rows": 1680,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -173,20 +173,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33165
+      "cached_rows": 33168
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-09T08:15:53+08:00",
-      "finished_at": "2026-09-09T08:27:25+08:00",
-      "latest_date": "20260904",
-      "total_cached_rows": 29990,
+      "started_at": "2026-09-10T08:16:14+08:00",
+      "finished_at": "2026-09-10T08:27:47+08:00",
+      "latest_date": "20260908",
+      "total_cached_rows": 29992,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260904",
+          "latest_date": "20260908",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260904",
+          "latest_date": "20260908",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260904",
-        "DGS10": "20260904",
+        "DGS2": "20260908",
+        "DGS10": "20260908",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 29990
+      "cached_rows": 29992
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2120,
-      "started_at": "2026-09-09T21:10:23+08:00",
-      "finished_at": "2026-09-09T21:10:23+08:00",
+      "started_at": "2026-09-10T08:27:47+08:00",
+      "finished_at": "2026-09-10T08:27:47+08:00",
       "latest_date": "20260909",
       "total_cached_rows": 2120,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-09-09T22:47:42+08:00",
+  "updated_at": "2026-09-10T08:16:02+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
