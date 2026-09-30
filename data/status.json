@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33441,
-      "started_at": "2026-09-29T23:03:01+08:00",
-      "finished_at": "2026-09-29T23:03:10+08:00",
-      "latest_date": "20260929",
-      "total_cached_rows": 33448,
+      "rows": 33437,
+      "started_at": "2026-09-30T09:18:15+08:00",
+      "finished_at": "2026-09-30T09:18:25+08:00",
+      "latest_date": "20260930",
+      "total_cached_rows": 33450,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -124,69 +124,69 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1694,
+          "rows": 1693,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1650,
+          "rows": 1652,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1650,
+          "rows": 1652,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33448
+      "cached_rows": 33450
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-29T09:58:21+08:00",
-      "finished_at": "2026-09-29T10:09:53+08:00",
-      "latest_date": "20260925",
-      "total_cached_rows": 30018,
+      "started_at": "2026-09-30T09:18:25+08:00",
+      "finished_at": "2026-09-30T09:29:57+08:00",
+      "latest_date": "20260928",
+      "total_cached_rows": 30020,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260925",
+          "latest_date": "20260928",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260925",
+          "latest_date": "20260928",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260925",
-        "DGS10": "20260925",
+        "DGS2": "20260928",
+        "DGS10": "20260928",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30018
+      "cached_rows": 30020
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-09-29T23:05:37+08:00",
-      "finished_at": "2026-09-29T23:05:37+08:00",
+      "started_at": "2026-09-30T09:29:57+08:00",
+      "finished_at": "2026-09-30T09:29:57+08:00",
       "latest_date": "20260929",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-09-30T00:37:56+08:00",
+  "updated_at": "2026-09-30T09:18:15+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
