@@ -66,9 +66,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33491,
-      "started_at": "2026-10-02T22:56:43+08:00",
-      "finished_at": "2026-10-02T22:56:53+08:00",
+      "rows": 33483,
+      "started_at": "2026-10-03T09:12:31+08:00",
+      "finished_at": "2026-10-03T09:12:40+08:00",
       "latest_date": "20261002",
       "total_cached_rows": 33496,
       "symbols": {
@@ -124,42 +124,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1697,
+          "rows": 1696,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -178,15 +178,15 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-02T09:42:18+08:00",
-      "finished_at": "2026-10-02T09:53:49+08:00",
-      "latest_date": "20260930",
-      "total_cached_rows": 30024,
+      "started_at": "2026-10-03T09:12:40+08:00",
+      "finished_at": "2026-10-03T09:24:12+08:00",
+      "latest_date": "20261001",
+      "total_cached_rows": 30026,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260930",
+          "latest_date": "20261001",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260930",
+          "latest_date": "20261001",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260930",
-        "DGS10": "20260930",
+        "DGS2": "20261001",
+        "DGS10": "20261001",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30024
+      "cached_rows": 30026
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2135,
-      "started_at": "2026-10-02T22:59:05+08:00",
-      "finished_at": "2026-10-02T22:59:05+08:00",
+      "started_at": "2026-10-03T09:24:12+08:00",
+      "finished_at": "2026-10-03T09:24:12+08:00",
       "latest_date": "20260930",
       "total_cached_rows": 2135,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-10-03T00:21:45+08:00",
+  "updated_at": "2026-10-03T09:12:31+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
