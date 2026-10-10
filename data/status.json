@@ -67,8 +67,8 @@
     "market": {
       "status": "success",
       "rows": 33569,
-      "started_at": "2026-10-09T23:32:22+08:00",
-      "finished_at": "2026-10-09T23:32:32+08:00",
+      "started_at": "2026-10-10T09:45:42+08:00",
+      "finished_at": "2026-10-10T09:45:56+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 33575,
       "symbols": {
@@ -178,15 +178,15 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-09T10:11:13+08:00",
-      "finished_at": "2026-10-09T10:22:45+08:00",
-      "latest_date": "20261007",
-      "total_cached_rows": 30034,
+      "started_at": "2026-10-10T09:45:56+08:00",
+      "finished_at": "2026-10-10T09:57:28+08:00",
+      "latest_date": "20261008",
+      "total_cached_rows": 30036,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261007",
+          "latest_date": "20261008",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261007",
+          "latest_date": "20261008",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20261007",
-        "DGS10": "20261007",
+        "DGS2": "20261008",
+        "DGS10": "20261008",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30034
+      "cached_rows": 30036
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2145,
-      "started_at": "2026-10-09T23:34:57+08:00",
-      "finished_at": "2026-10-09T23:34:57+08:00",
+      "started_at": "2026-10-10T09:57:28+08:00",
+      "finished_at": "2026-10-10T09:57:28+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 2145,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-10-10T01:10:27+08:00",
+  "updated_at": "2026-10-10T09:45:42+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
