@@ -66,9 +66,9 @@
     },
     "market": {
       "status": "success",
-      "rows": 33761,
-      "started_at": "2026-10-24T08:43:36+08:00",
-      "finished_at": "2026-10-24T08:43:48+08:00",
+      "rows": 33769,
+      "started_at": "2026-10-25T08:21:00+08:00",
+      "finished_at": "2026-10-25T08:21:09+08:00",
       "latest_date": "20261023",
       "total_cached_rows": 33777,
       "symbols": {
@@ -124,42 +124,42 @@
         },
         "AAPL": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "MSFT": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "NVDA": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "AMZN": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "GOOGL": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "META": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "TSLA": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "MU": {
           "status": "success",
-          "rows": 1711,
+          "rows": 1712,
           "source": "Yahoo Finance / yfinance"
         },
         "005930.KS": {
@@ -178,8 +178,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-24T08:43:48+08:00",
-      "finished_at": "2026-10-24T08:55:22+08:00",
+      "started_at": "2026-10-25T08:21:09+08:00",
+      "finished_at": "2026-10-25T08:32:41+08:00",
       "latest_date": "20261022",
       "total_cached_rows": 30054,
       "source_details": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2155,
-      "started_at": "2026-10-24T08:55:22+08:00",
-      "finished_at": "2026-10-24T08:55:22+08:00",
+      "started_at": "2026-10-25T08:32:41+08:00",
+      "finished_at": "2026-10-25T08:32:41+08:00",
       "latest_date": "20261023",
       "total_cached_rows": 2155,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,7 +395,7 @@
       "source": "东方财富行情中心代码列表"
     }
   },
-  "updated_at": "2026-10-24T22:06:37+08:00",
+  "updated_at": "2026-10-25T08:21:00+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
